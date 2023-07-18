@@ -1,0 +1,103 @@
+{
+	"units": [
+		{
+			"id": "unit01",
+			"name": "name_unit01",
+			"description": "desc_unit01"
+		},
+		{
+			"id": "unit02",
+			"name": "name_unit02",
+			"description": "desc_unit02"
+		},
+	],
+	"items": [
+		{
+			"id": "item01",
+			"name": "name_item01",
+			"description": "desc_item01"
+		},
+		{
+			"id": "item02",
+			"name": "name_item02",
+			"description": "desc_item02"
+		},
+	],
+	"elements": [
+		{
+			"id": "element01",
+			"name": "name_element01",
+			"description": "desc_element01"
+		},
+		{
+			"id": "element02",
+			"name": "name_element02",
+			"description": "desc_element02"
+		},
+	],
+	"status_effects": [
+		{
+			"id": "status_effect01",
+			"name": "name_status_effect01",
+			"description": "desc_status_effect01",
+			"animation": "res://animations/status_effects/status_effect01.tres",
+			"audio": "res://audio/status_effects/status_effect01.ogg"
+		},
+		{
+			"id": "status_effect02",
+			"name": "name_status_effect02",
+			"description": "desc_status_effect02",
+			"animation": "res://animations/status_effects/status_effect02.tres",
+			"audio": "res://audio/status_effects/status_effect02.ogg"
+		},
+	],
+	"skills": [
+		{
+			"id": "skill01",
+			"name": "name_skill01",
+			"description": "desc_skill01",
+			"damage": "15",
+			"animation": "res://animations/skills/skill01.tres",
+			"audio": "res://audio/skills/skill01.ogg",
+			"cooldown": "2500",
+			"level_requirement": "1",
+			"range": "12000",
+			"radius": "1000",
+			"elements": [
+				{
+					"id": "element01"
+				}
+			],
+			"status_effects": [
+				{
+					"id": "status_effect01",
+					"duration": "15000"
+				}
+			]
+		},
+		{
+			"id": "skill02",
+			"name": "name_skill02",
+			"description": "desc_skill02",
+			"damage": "25",
+			"animation": "res://animations/skills/skill02.tres",
+			"audio": "res://audio/skills/skill02.ogg",
+			"cooldown": "8000",
+			"level_requirement": "1",
+			"range": "14000",
+			"radius": "1000",
+			"elements": [
+				{
+					"id": "element01",
+					"id": "element02"
+				}
+			],
+			"status_effects": [
+				{
+					"id": "status_effect02",
+					"duration": "20000"
+				}
+			]
+		},
+	]
+}

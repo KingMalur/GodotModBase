@@ -1,0 +1,76 @@
+{
+	"locale": "de",
+	"messages": {
+		"locale_de": "Deutsch",
+		"locale_en": "Englisch",
+
+		"general_start": "Start",
+		"general_options": "Optionen",
+		"general_back": "Zurück",
+		"general_delete": "Löschen",
+		"general_pause": "Pause",
+		"general_continue": "Fortsetzen",
+		"general_language": "Sprache",
+
+		"main_menu_button_new_game": "Neues Spiel",
+		"main_menu_button_hint_new_game": "Starte ein neues Spiel!",
+		"main_menu_button_load_game": "Spiel laden",
+		"main_menu_button_hint_load_game": "Lade einen Spielstand fort!",
+		"main_menu_button_continue": "Spiel fortsetzen",
+		"main_menu_button_hint_continue": "Lädt den zuletzt verwendeten Spielstand!",
+		"main_menu_button_exit": "Spiel verlassen",
+		"main_menu_button_hint_exit": "Verlasse das Spiel und kehre auf den Desktop zurück!",
+		"main_menu_button_select_save_game": "Spielstand auswählen",
+		"main_menu_button_hint_select_save_game": "Lade den markierten Spielstand!",
+		"main_menu_label_save_game_version": "Version:",
+		"main_menu_button_open_settings_menu": "Optionen",
+		"main_menu_button_hint_open_settings_menu": "Verändere die Spieleinstellungen!",
+
+		"options_menu_button_save_options": "Optionen speichern",
+		"options_menu_label_audio": "Audio",
+		"options_menu_checkbox_audio_on": "Musik",
+		"options_menu_checkbox_sound_on": "Effekte",
+		"options_menu_checkbox_hint_audio_on": "Aktiviert/Deaktiviert Musik",
+		"options_menu_checkbox_hint_sound_on": "Aktiviert/Deaktiviert Soundeffekte",
+		"options_menu_label_audio_volume": "Lautstärke",
+		"options_menu_label_sound_volume": "Lautstärke",
+		"options_menu_label_graphics": "Grafik",
+		"options_menu_label_texture_quality": "Texturenqualität",
+		"options_menu_label_shadow_quality": "Schattenqualität",
+		"options_menu_label_reflection_quality": "Qualität der Reflexionen",
+		"options_menu_checkbox_anti_aliasing_on": "Anti-Aliasing",
+		"options_menu_checkbox_hint_anti_aliasing_on": "Aktiviert/Deaktiviert Anti-Aliasing",
+		"options_menu_checkbox_v_sync_on": "V-Sync",
+		"options_menu_label_fps_limit": "Ziel-FPS",
+
+		"loading_screen_label_is_loading": "[center][wave amp=25 freq=10]Laden...[/wave][/center]",
+		"loading_screen_label_press_any_key": "[center][wave amp=25 freq=5]Drücken Sie eine beliebige Taste, um fortzufahren.[/wave][/center]",
+
+		"pause_menu_label_title": "Das Spiel wurde pausiert.",
+
+		"name_unit01": "Einheit 01",
+		"desc_unit01": "Beschreibung Einheit 01",
+		"name_unit02": "Einheit 02",
+		"desc_unit02": "Beschreibung Einheit 02",
+
+		"name_item01": "Gegenstand 01",
+		"desc_item01": "Beschreibung Gegenstand 01",
+		"name_item02": "Gegenstand 02",
+		"desc_item02": "Beschreibung Gegenstand 02",
+
+		"name_element01": "Element 01",
+		"desc_element01": "Beschreibung Element 01",
+		"name_element02": "Element 02",
+		"desc_element02": "Beschreibung Element 02",
+
+		"name_status_effect01": "Statuseffekt 01",
+		"desc_status_effect01": "Beschreibung Statuseffekt 01",
+		"desc_status_effect02": "Statuseffekt 02",
+		"desc_status_effect02": "Beschreibung Statuseffekt 02",
+
+		"name_skill01": "Fähigkeit 01",
+		"desc_skill01": "Beschreibung Fähigkeit 01",
+		"name_skill02": "Fähigkeit 02",
+		"desc_skill02": "Beschreibung Fähigkeit 02",
+	}
+}

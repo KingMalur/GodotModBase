@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://b40qix4w8oyxg"]
+
+[ext_resource type="Script" path="res://scripts/Boot.gd" id="1_7kid5"]
+[ext_resource type="Script" path="res://scripts/Scene_Switcher.gd" id="2_gdvy4"]
+[ext_resource type="PackedScene" uid="uid://dl1dupn1xb8v4" path="res://scenes/boot/ui/Loading_Screen.tscn" id="3_65ewt"]
+[ext_resource type="Script" path="res://scripts/Globals.gd" id="3_sr31b"]
+
+[node name="Objects" type="Node"]
+
+[node name="Boot" type="Node" parent="."]
+process_priority = -1
+script = ExtResource("1_7kid5")
+singleton_node_name = "Autoload"
+objects_node = NodePath("..")
+globals_node = NodePath("Globals")
+scene_switcher_node = NodePath("SceneSwitcher")
+show_loading_screen_on_first_load = true
+
+[node name="SceneSwitcher" type="Node" parent="Boot"]
+script = ExtResource("2_gdvy4")
+scenes_node = NodePath("Scenes")
+
+[node name="Scenes" type="Node" parent="Boot/SceneSwitcher"]
+
+[node name="LoadingScreen" parent="Boot/SceneSwitcher" instance=ExtResource("3_65ewt")]
+
+[node name="Globals" type="Node" parent="Boot"]
+unique_name_in_owner = true
+script = ExtResource("3_sr31b")
+is_editor_build = true
+first_scene = "Game.tscn"

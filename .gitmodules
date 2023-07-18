@@ -1,0 +1,9 @@
+[submodule "console"]
+  path = Game/addons/quentincaffeino-console
+  url = https://github.com/SdgGames/godot-console.git
+[submodule "gut"]
+	path = Game/addons/gut
+	url = https://github.com/SdgGames/Gut.git
+[submodule "logger"]
+	path = Game/addons/logger
+	url = https://github.com/SdgGames/logger

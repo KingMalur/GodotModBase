@@ -1,0 +1,30 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Godot Mod Base"
+run/main_scene="res://scenes/Boot.tscn"
+config/features=PackedStringArray("4.1", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+ModLoader="*res://scripts/mod_loader/Mod_Loader.gd"
+Logger="*res://scripts/Logger.gd"
+TranslationService="*res://scripts/Translation_Service.gd"
+Tools="*res://scripts/Tools.gd"
+Settings="*res://scripts/Settings.gd"
+GameData="*res://scripts/Game_Data.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

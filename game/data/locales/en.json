@@ -1,0 +1,76 @@
+{
+	"locale": "de",
+	"messages": {
+		"locale_de": "German",
+		"locale_en": "English",
+
+		"general_start": "Start",
+		"general_options": "Options",
+		"general_back": "Back",
+		"general_delete": "Delete",
+		"general_pause": "Pause",
+		"general_continue": "Continue",
+		"general_language": "Language",
+
+		"main_menu_button_new_game": "New Game",
+		"main_menu_button_hint_new_game": "Start a new game!",
+		"main_menu_button_load_game": "Load Game",
+		"main_menu_button_hint_load_game": "Load a previous save!",
+		"main_menu_button_continue": "Continue current game",
+		"main_menu_button_hint_continue": "Loads the last played save!",
+		"main_menu_button_exit": "Exit Game",
+		"main_menu_button_hint_exit": "Exit the game to desktop!",
+		"main_menu_button_select_save_game": "Choose save",
+		"main_menu_button_hint_select_save_game": "Loads the selected save!",
+		"main_menu_label_save_game_version": "Version:",
+		"main_menu_button_open_settings_menu": "Options",
+		"main_menu_button_hint_open_settings_menu": "Change the games settings!",
+
+		"options_menu_button_save_options": "Save Options",
+		"options_menu_label_audio": "Audio",
+		"options_menu_checkbox_audio_on": "Music",
+		"options_menu_checkbox_sound_on": "Effects",
+		"options_menu_checkbox_hint_audio_on": "Activates/Deactivates Music",
+		"options_menu_checkbox_hint_sound_on": "Activates/Deactivates Sound Effects",
+		"options_menu_label_audio_volume": "Volume",
+		"options_menu_label_sound_volume": "Volume",
+		"options_menu_label_graphics": "Grafics",
+		"options_menu_label_texture_quality": "Texture Quality",
+		"options_menu_label_shadow_quality": "Shadow Quality",
+		"options_menu_label_reflection_quality": "Reflexion Quality",
+		"options_menu_checkbox_anti_aliasing_on": "Anti-Aliasing",
+		"options_menu_checkbox_hint_anti_aliasing_on": "Activates/Deactivates Anti-Aliasing",
+		"options_menu_checkbox_v_sync_on": "V-Sync",
+		"options_menu_label_fps_limit": "Target-FPS",
+
+		"loading_screen_label_is_loading": "[center][wave amp=25 freq=10]Loading...[/wave][/center]",
+		"loading_screen_label_press_any_key": "[center][wave amp=25 freq=5]Press any key to continue.[/wave][/center]",
+
+		"pause_menu_label_title": "Game is paused.",
+
+		"name_unit01": "Unit 01",
+		"desc_unit01": "Description Unit 01",
+		"name_unit02": "Unit 02",
+		"desc_unit02": "Description Unit 02",
+
+		"name_item01": "Item 01",
+		"desc_item01": "Description Item 01",
+		"name_item02": "Item 02",
+		"desc_item02": "Description Item 02",
+
+		"name_element01": "Element 01",
+		"desc_element01": "Description Element 01",
+		"name_element02": "Element 02",
+		"desc_element02": "Description Element 02",
+
+		"name_status_effect01": "Status effect 01",
+		"desc_status_effect01": "Description Status effect 01",
+		"desc_status_effect02": "Status effect 02",
+		"desc_status_effect02": "Description Status effect 02",
+
+		"name_skill01": "Skill 01",
+		"desc_skill01": "Description Skill 01",
+		"name_skill02": "Skill 02",
+		"desc_skill02": "Description Skill 02",
+	}
+}
